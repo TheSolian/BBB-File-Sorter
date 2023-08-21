@@ -1,9 +1,9 @@
 const fs = require('fs')
 const path = require('path')
 
-const downloadPath = path.resolve('/Users/thesolian/Downloads')
+const downloadPath = path.resolve('download path here')
 const bbbPath = path.resolve(
-  '/Users/thesolian/Library/Mobile Documents/com~apple~CloudDocs/Schule/BBB'
+  'bbb path here'
 )
 
 const files = fs.readdirSync(downloadPath)
